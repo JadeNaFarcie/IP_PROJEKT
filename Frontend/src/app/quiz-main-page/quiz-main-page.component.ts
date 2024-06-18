@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as baza from '../../database/baza.json';
+//import * as ikony from '../../images/';
 
 @Component({
   selector: 'app-quiz-main-page',
@@ -9,6 +10,7 @@ import * as baza from '../../database/baza.json';
 
 export class QuizMainPageComponent {
   data: any = baza;
+  //images: any = ikony;
 
   checkData() {
     console.log(this.data);

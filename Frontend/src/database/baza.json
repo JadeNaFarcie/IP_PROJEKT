@@ -1,9 +1,9 @@
 {
   "Pytania": {
-    "Całe ciało": [
+    "Zestaw1": [
       {
         "ID": 40,
-        "Treść": "Najsilniejszy mięsień w ciele człowieka to?",
+        "Tresc": "Najsilniejszy mięsień w ciele człowieka to?",
         "a": "Dwugłowy ramienny",
         "b": "Czworogłowy uda",
         "c": "Pośladkowy wielki",
