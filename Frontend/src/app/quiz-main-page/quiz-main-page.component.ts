@@ -9,4 +9,8 @@ import * as baza from '../../database/baza.json';
 
 export class QuizMainPageComponent {
   data: any = baza;
+
+  checkData() {
+    console.log(this.data);
+  }
 }
