@@ -35,8 +35,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
+              "src/styles.css",
+              "src/app/app.component.css",
+              "src/app/login/login.component.css",
+              "src/app/quiz-main-page/quiz-main-page.component.css",
+              "src/app/register/register.component.css"            ],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
