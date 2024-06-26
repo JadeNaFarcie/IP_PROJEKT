@@ -1,0 +1,11 @@
+<div *ngIf="!showResults">
+    <h2>Question {{ currentQuestionIndex + 1 }}</h2>
+    <p>{{ questions[currentQuestionIndex]?.Tresc }}</p>
+    <div *ngFor="let option of [questions[currentQuestionIndex]?.a, questions[currentQuestionIndex]?.b, questions[currentQuestionIndex]?.c, questions[currentQuestionIndex]?.d]">
+      <button (click)="selectAnswer(option)">{{ option }}</button>
+    </div>
+  </div>
+  
+  <div *ngIf="showResults">
+    <app-results [questions]="questions" [userAnswers]="userAnswers"></app-results>
+  </div>

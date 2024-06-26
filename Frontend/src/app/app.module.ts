@@ -11,13 +11,19 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { environment } from './environments/environments';
 import { QuizMainPageComponent } from './quiz-main-page/quiz-main-page.component';
+import { QuizTestComponent } from './quiz-test/quiz-test.component';
+import { ResultsComponent } from './quiz-test/results/results.component';
+import { FirebaseService } from './services/firebase.service';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database'; // Correct import
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    QuizMainPageComponent
+    QuizMainPageComponent,
+    QuizTestComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,8 @@ import { QuizMainPageComponent } from './quiz-main-page/quiz-main-page.component
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFireAnalyticsModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    AngularFireDatabaseModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

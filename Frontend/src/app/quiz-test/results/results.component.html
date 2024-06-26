@@ -1,0 +1,6 @@
+<h2>Results</h2>
+<div *ngFor="let question of questions; let i = index">
+  <p>{{ question.Tresc }}</p>
+  <p>Your answer: {{ userAnswers[i] }}</p>
+  <p>Correct answer: {{ question.odp_pop }}</p>
+</div>

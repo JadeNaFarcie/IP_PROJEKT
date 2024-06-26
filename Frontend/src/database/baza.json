@@ -92,7 +92,7 @@
         "odp_pop": "d"
       }
     ],
-    "Układ kostny": [
+    "Zestaw2": [
       {
         "ID": 30,
         "Treść": "Z ilu kości składa się układ kostny człowieka?",
@@ -184,7 +184,7 @@
         "odp_pop": "c"
       }
     ],
-    "Układ krwionośny": [
+    "Zestaw3": [
       {
         "ID": 0,
         "Treść": "Ile krwi średnio pompuje serce w ciągu 24 godzin?",
@@ -276,7 +276,7 @@
         "odp_pop": "d"
       }
     ],
-    "Układ nerwowy": [
+    "Zestaw4": [
       {
         "ID": 20,
         "Treść": "Komórka nerwowa to inaczej?",
@@ -368,7 +368,7 @@
         "odp_pop": "b"
       }
     ],
-    "Układ oddechowy": [
+    "Zestaw5": [
       {
         "ID": 10,
         "Treść": "Człowiek średnio w ciągu doby wykonuje około?",
@@ -462,7 +462,7 @@
     ]
   },
   "Wyniki": {
-    "Całe ciało": [
+    "Zestaw1": [
       {
         "Czas": 1.958,
         "Pseudonim": "Filip",
@@ -484,7 +484,7 @@
         "Wynik": 1
       }
     ],
-    "Układ kostny": [
+    "Zestaw2": [
       {
         "Czas": 1.577,
         "Pseudonim": "Alojzy",
@@ -511,7 +511,7 @@
         "Wynik": 5
       }
     ],
-    "Układ krwionośny": [
+    "Zestaw3": [
       {
         "Czas": 1,
         "Pseudonim": "Dawid",
@@ -593,7 +593,7 @@
         "Wynik": 0
       }
     ],
-    "Układ nerwowy": [
+    "Zestaw4": [
       {
         "Czas": 2.126,
         "Pseudonim": "Kewin",
@@ -625,7 +625,7 @@
         "Wynik": 3
       }
     ],
-    "Układ oddechowy": [
+    "Zestaw5": [
       {
         "Czas": 1.835,
         "Pseudonim": "Bożena",
