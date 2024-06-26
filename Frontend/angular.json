@@ -39,7 +39,10 @@
               "src/app/app.component.css",
               "src/app/login/login.component.css",
               "src/app/quiz-main-page/quiz-main-page.component.css",
-              "src/app/register/register.component.css"            ],
+              "src/app/register/register.component.css",
+            "src/app/quiz-test/quiz-test.component.css",
+            "src/app/quiz-test/results/results.component.css"
+                      ],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,

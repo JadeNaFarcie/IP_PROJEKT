@@ -1,6 +1,7 @@
 <div *ngIf="!showResults">
     <h2>Question {{ currentQuestionIndex + 1 }}</h2>
-    <p>{{ questions[currentQuestionIndex]?.Tresc }}</p>
+    <p>{{ questions[currentQuestionIndex]?.Tre
+    }}</p>
     <div *ngFor="let option of [questions[currentQuestionIndex]?.a, questions[currentQuestionIndex]?.b, questions[currentQuestionIndex]?.c, questions[currentQuestionIndex]?.d]">
       <button (click)="selectAnswer(option)">{{ option }}</button>
     </div>
