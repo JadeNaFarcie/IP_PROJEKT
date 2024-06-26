@@ -68,7 +68,7 @@ textarea {
 .napis_glowny {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .napis_poboczny {
@@ -82,7 +82,7 @@ textarea {
 
 .div_rzad_napis {
     text-align: center;
-    width: 16.67%;
+    width: 20%;
 }
 
 .logo_tlo_mniejsze {
@@ -185,16 +185,6 @@ textarea {
 .logo_tlo_mniejsze:nth-of-type(5):hover img {
     animation-name: walk;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.logo_tlo_mniejsze:nth-of-type(6):hover {
-    box-shadow: 0 0 45px white;
-}
-
-.logo_tlo_mniejsze:nth-of-type(6):hover img {
-    animation-name: sides;
-    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -306,4 +296,24 @@ textarea {
     100% {
         transform: translate(0%, 0%);
     }
+}
+
+.div_rzad_napis:first-child {
+    color: #F21A1D;
+}
+
+.div_rzad_napis:nth-of-type(2) {
+    color: #5CE5D5;
+}
+
+.div_rzad_napis:nth-of-type(3) {
+    color: #7FFF00;
+}
+
+.div_rzad_napis:nth-of-type(4) {
+    color: #B76CFD;
+}
+
+.div_rzad_napis:nth-of-type(5) {
+    color: #FFFF00;
 }

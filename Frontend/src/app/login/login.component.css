@@ -3,6 +3,7 @@ body {
     padding-bottom: 20px;
     min-width: 1200px;
 	text-align: center;
+    overflow: hidden;
 }
 
 @media (max-width: 1200px) {
@@ -66,7 +67,7 @@ textarea {
 .napis_glowny {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .napis_poboczny {

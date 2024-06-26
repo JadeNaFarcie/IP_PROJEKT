@@ -1,10 +1,12 @@
 <nav *ngIf="isLoggedIn; else loggedOut">
-  <a (click)="logout()">Wyloguj</a>
+  <div class="guzik" style="position: fixed; right: 50px; top: 30px" (click)="logout()">
+    <p style="height: 30px;">Wyloguj</p>
+  </div>
 </nav>
 <ng-template #loggedOut>
-  <nav>
+  <!-- <nav>
     <a routerLink="/register">Register</a>
     <a routerLink="/login">Login</a>
-  </nav>
+  </nav> -->
 </ng-template>
 <router-outlet></router-outlet>

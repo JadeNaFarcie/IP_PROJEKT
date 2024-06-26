@@ -3,6 +3,7 @@ body {
     padding-bottom: 20px;
     min-width: 1200px;
 	text-align: center;
+    overflow: hidden;
 }
 
 @media (max-width: 1200px) {
